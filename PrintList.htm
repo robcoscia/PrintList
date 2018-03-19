@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Print Version List</title>
+    <link href="base.css" rel="stylesheet" type="text/css" />
+    <link href="jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-1.6.1.min.js" type="text/javascript"></script>
+    <script src="JQueryUI-1.9.0/jquery-ui-1.9.0.min.js" type="text/javascript"></script>
+    <link href="colorbox.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.colorbox.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        h1{color: #002093; margin-left: 45px;margin-top: 20px;}
+        h2{color: Red; margin-left: 45px; font-size: large;}
+        h3{margin-left: 45px; color: #003380;font-size: large;font-weight: bold;}
+        p{margin-left: 45px; margin-right: 45px;}
+        .categoryTitle{font-weight: bold; text-align: left; margin-left: 15px; margin-top: 10px;}
+        .categoryName{color: Green; padding-left: 5px; padding-right: 5px;padding-top: 5px;}
+        .categoryDescription{font-style:italic; font-weight: normal;padding-left: 5px; padding-right: 5px;padding-bottom: 5px;}
+        table.schoolList, table.schoolList th, table.schoolList td { border: 1px solid black;}
+        table.schoolList{ margin-left: 45px;}
+        td.SchoolDetails div{float: left; padding: 5px;}
+        div.SchoolDetails{ width: 225px; color: #333; font-weight: bold;}
+        div.CityState{ width: 140px;}
+        div.Notes{width: 265px;} 
+        .grayRow{ background-color: #F5F5F5;}
+        .CollegeSubCatToken{color: #333;}
+    </style>    
+
+</head>
+<body style="background-color: #003380;padding-left:20px;padding-right:20px;background-image:none">
+    <table id="mainListTable" style="background: white;">
+    <thead>
+        <td>
+            <div style="height: 25px;background-color: #003380;width: 100%;Margin-bottom: 15px;" />
+        </td>
+    </thead>
+    <tr>
+        <td>
+            <h1>Sophia's Customized College List</h1>
+            <h2>How to Read Your List</h2>
+            <p>This list of colleges was created to closely match the interests and qualifications you reported on the questionnaire. The information contained in this list is provided for informational purposes and only should be used as a starting point in determining the schools to which you should apply. The list is neither a guarantee of acceptance nor of rejection. Because the college selection process is of such importance, you should research to determine a final list of schools.</p>
+<p>The <span class="BoldBlue">(+)</span> or <span class="BoldBlue">(-)</span> next to the school indicates that the school is either more (+) or less (-) competitive than other schools in the same category.</p>
+            <h2>GPA Calculation</h2>
+            <p>Please note that the grade point average used to generate this list of schools was based on your unweighted average in core academic subjects (English, math, science, social studies, and foreign language). In addition, we have carefully evaluated the rigor of the curriculum on your transcript and factored that information into the placement of schools on your list. Colleges will typically evaluate both your unweighted average in these subjects and the rigor of your curriculum when reviewing your application for admission.</p>
+            <h2>Special Notes About Sophia&#39;s List</h2>
+            <p>Your college list was created using the following criteria – Unweighted GPA in an AP/college prep curriculum: A-; SAT: 1450 (670 R, 780 M); Major – business.  A preference was given to medium-sized, urban schools when possible. Please note that the placements on this list are for general admission to the college or university only. We cannot accurately predict your chances for admission into a specific business program as this can vary widely from school to school. We recommend using these placements as a starting point; you will need to include the acceptance rates and averages for your major in your research for each school. </p>
+
+        </td>
+    </tr> 
+    <tr>   
+        <td>
+            <table class="schoolList">
+                <tr><th class="categoryTitle"><span class="categoryName">No Problem</span> &nbsp;  - Greater than 90% chance you will be admitted <br /> <span class="categoryDescription">Schools where your profile is stronger than the average accepted applicant&#39;s profile.</span></th></tr>
+                             <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            California State University, Long Beach <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Long Beach, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            Saint Mary&#39;s College of California <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Moraga, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            University of California, Merced <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Merced, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            University of California, Riverside <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Riverside, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            University of California, Santa Cruz <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Santa Cruz, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business Economics</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            University of Redlands <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Redlands, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            University of San Francisco <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">San Francisco, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            University of the Pacific <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Stockton, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+	              
+            </table>
+            <br />
+            <br />
+        </td>
+    </tr>
+    <tr>   
+        <td>
+            <table class="schoolList">
+                <tr><th class="categoryTitle"><span class="categoryName">Just Right</span> &nbsp;  - At least 50% chance you will be admitted <br /> <span class="categoryDescription">Schools where your profile is on par with the average accepted applicant&#39;s profile.</span></th></tr>
+                            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            California Polytechnic State University, San Luis Obispo <span class="CollegeSubCatToken">(+)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">San Luis Obispo, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            Chapman University <span class="CollegeSubCatToken">(-)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Orange, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            Loyola Marymount University <span class="CollegeSubCatToken">(-)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Los Angeles, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            San Diego State University <span class="CollegeSubCatToken">(-)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">San Diego, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            Santa Clara University <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Santa Clara, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Economics</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            University of California, Irvine <span class="CollegeSubCatToken">(+)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Irvine, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            University of California, Santa Barbara <span class="CollegeSubCatToken">(+)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Santa Barbara, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Economics</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            University of San Diego <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">San Diego, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+	              
+            </table>
+            <br />
+            <br />
+        </td>
+    </tr>
+    <tr>   
+        <td>
+            <table class="schoolList">
+                <tr><th class="categoryTitle"><span class="categoryName">Challenging</span> &nbsp; - Less than 50% chance you will be admitted <br /> <span class="categoryDescription">Schools where the average accepted applicant&#39;s profile is stronger than your profile.</span></th></tr>
+                            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            University of California, Berkeley <span class="CollegeSubCatToken">(+)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Berkeley, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            University of California, Los Angeles <span class="CollegeSubCatToken">(+)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Los Angeles, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business Economics</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails grayRow" >
+                        <div class="SchoolDetails" >
+                            University of California, San Diego <span class="CollegeSubCatToken"></span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">La Jolla, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Management Science</div>
+                    </td>
+            </tr>
+            <tr>
+                    <td class="SchoolDetails" >
+                        <div class="SchoolDetails" >
+                            University of Southern California <span class="CollegeSubCatToken">(+)</span>
+                        </div>
+                        <div class="CityState WrdBrkHyph">Los Angeles, <span class="KeepTogether">CA</span></div>
+                            <div class="Notes">Business</div>
+                    </td>
+            </tr>
+	              
+            </table>
+            <br />
+            <br />
+        </td>
+    </tr>
+    <tr>
+        <td>
+			<h2>Next Steps</h2>
+            <br>
+			<h3>1. Begin Your Research</h3>
+            <p>You've received your suggested list of schools. Now what? The schools on your list are a good beginning, but the list is not an exhaustive list of every school that might interest you. Instead, the list is a starting point, a working document to which you can add or subtract schools based on your research. But your main focus now becomes winnowing down that list of schools to a more manageable number of schools to visit.</p>
+            <br>
+            <h3>2. Find Your Best Fit</h3>
+            <p>At College Coach we are big believers in 'fit.' Choosing the right college is much more than just considering majors, activities and a good location. It's about understanding the importance of fit.</p>
+            <br>
+            <h3>3. Plan Your Campus Visits</h3>
+            <p>The campus visit is a key factor for eliminating schools from your list or making decisions about where and when to apply. It's okay if you can't make it to every school to which you want to apply. You can take extra steps to research an institution thoroughly without visiting, although we encourage a visit whenever possible.</p>
+            <br>
+            <h3>4. Finalize your list and start your applications</h3>
+            <p>Hopefully you now have 7 to 10 schools to which you'll be applying that are appropriately balanced between the 3 categories: 2 challenging schools, 3 just right schools, and 2 no problem schools. And now it's time to organize the application process---figuring out how and when to apply and what each school requires.</p>
+        </td>
+    </tr>
+    <tfoot>
+        <td>
+            <img id="CCLogoForList"src="CC_Retail_Logo_157x84.png" alt="College Coach Logo" style="float: right; margin-right: 70px; margin-top: 20px; margin-bottom: 20px;" />
+            <div style="height: 25px;background-color: #003380;width: 100%;margin-top:20px;clear:both;" />
+        </td>    
+    </tfoot>
+</table>
+
+<script type="text/javascript">
+</script>
+</body>
+</html>
